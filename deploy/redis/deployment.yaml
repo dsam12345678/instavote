@@ -20,5 +20,6 @@ spec:
       containers:
       - image: redis/alpine:v1
         name: alpine
+        ImagePullPolicy: IfNotPresent
         resources: {}
 status: {}
